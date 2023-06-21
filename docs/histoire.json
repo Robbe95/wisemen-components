@@ -1,0 +1,922 @@
+{
+  "stories": [
+    {
+      "id": "src-modules-ui-components-app-collapse-appcollapse-story-vue",
+      "title": "AppCollapse",
+      "group": null,
+      "layout": {
+        "type": "single",
+        "iframe": true
+      },
+      "icon": null,
+      "iconColor": null,
+      "docsOnly": false,
+      "variants": [
+        {
+          "id": "src-modules-ui-components-app-collapse-appcollapse-story-vue-0",
+          "title": "Default",
+          "icon": null,
+          "iconColor": null
+        }
+      ],
+      "relativePath": "src/modules/ui/components/app/collapse/AppCollapse.story.vue",
+      "supportPluginId": "vue3",
+      "treePath": [
+        "App",
+        "Collapse",
+        "AppCollapse"
+      ],
+      "virtual": false,
+      "markdownFile": null
+    },
+    {
+      "id": "src-modules-ui-components-app-divider-appdivider-story-vue",
+      "title": "AppDivider",
+      "group": null,
+      "layout": {
+        "type": "single",
+        "iframe": true
+      },
+      "icon": null,
+      "iconColor": null,
+      "docsOnly": false,
+      "variants": [
+        {
+          "id": "src-modules-ui-components-app-divider-appdivider-story-vue-0",
+          "title": "Default",
+          "icon": null,
+          "iconColor": null
+        },
+        {
+          "id": "src-modules-ui-components-app-divider-appdivider-story-vue-1",
+          "title": "With content",
+          "icon": null,
+          "iconColor": null
+        },
+        {
+          "id": "src-modules-ui-components-app-divider-appdivider-story-vue-2",
+          "title": "With content middle",
+          "icon": null,
+          "iconColor": null
+        },
+        {
+          "id": "src-modules-ui-components-app-divider-appdivider-story-vue-3",
+          "title": "With content end",
+          "icon": null,
+          "iconColor": null
+        }
+      ],
+      "relativePath": "src/modules/ui/components/app/divider/AppDivider.story.vue",
+      "supportPluginId": "vue3",
+      "treePath": [
+        "App",
+        "Divider",
+        "AppDivider"
+      ],
+      "virtual": false,
+      "markdownFile": null
+    },
+    {
+      "id": "src-modules-ui-components-app-image-appimage-story-vue",
+      "title": "AppImage",
+      "group": null,
+      "layout": {
+        "type": "single",
+        "iframe": true
+      },
+      "icon": null,
+      "iconColor": null,
+      "docsOnly": false,
+      "variants": [
+        {
+          "id": "src-modules-ui-components-app-image-appimage-story-vue-0",
+          "title": "Default",
+          "icon": null,
+          "iconColor": null
+        },
+        {
+          "id": "src-modules-ui-components-app-image-appimage-story-vue-1",
+          "title": "Preview",
+          "icon": null,
+          "iconColor": null
+        }
+      ],
+      "relativePath": "src/modules/ui/components/app/image/AppImage.story.vue",
+      "supportPluginId": "vue3",
+      "treePath": [
+        "App",
+        "Image",
+        "AppImage"
+      ],
+      "virtual": false,
+      "markdownFile": null
+    },
+    {
+      "id": "src-modules-ui-components-app-loaders-apploader-story-vue",
+      "title": "AppLoader",
+      "group": null,
+      "layout": {
+        "type": "single",
+        "iframe": true
+      },
+      "icon": null,
+      "iconColor": null,
+      "docsOnly": false,
+      "variants": [
+        {
+          "id": "src-modules-ui-components-app-loaders-apploader-story-vue-0",
+          "title": "Default",
+          "icon": null,
+          "iconColor": null
+        }
+      ],
+      "relativePath": "src/modules/ui/components/app/loaders/AppLoader.story.vue",
+      "supportPluginId": "vue3",
+      "treePath": [
+        "App",
+        "Loaders",
+        "AppLoader"
+      ],
+      "virtual": false,
+      "markdownFile": null
+    },
+    {
+      "id": "src-modules-ui-components-app-modals-appmodal-story-vue",
+      "title": "AppModal",
+      "group": null,
+      "layout": {
+        "type": "single",
+        "iframe": true
+      },
+      "icon": null,
+      "iconColor": null,
+      "docsOnly": false,
+      "variants": [
+        {
+          "id": "src-modules-ui-components-app-modals-appmodal-story-vue-0",
+          "title": "Default",
+          "icon": null,
+          "iconColor": null
+        }
+      ],
+      "relativePath": "src/modules/ui/components/app/modals/AppModal.story.vue",
+      "supportPluginId": "vue3",
+      "treePath": [
+        "App",
+        "Modals",
+        "AppModal"
+      ],
+      "virtual": false,
+      "markdownFile": null
+    },
+    {
+      "id": "src-modules-ui-components-app-pagination-apppagination-story-vue",
+      "title": "AppPagination",
+      "group": null,
+      "layout": {
+        "type": "single",
+        "iframe": true
+      },
+      "icon": null,
+      "iconColor": null,
+      "docsOnly": false,
+      "variants": [
+        {
+          "id": "src-modules-ui-components-app-pagination-apppagination-story-vue-0",
+          "title": "Default",
+          "icon": null,
+          "iconColor": null
+        }
+      ],
+      "relativePath": "src/modules/ui/components/app/pagination/AppPagination.story.vue",
+      "supportPluginId": "vue3",
+      "treePath": [
+        "App",
+        "Pagination",
+        "AppPagination"
+      ],
+      "virtual": false,
+      "markdownFile": null
+    },
+    {
+      "id": "src-modules-ui-components-app-sidebar-appsidebar-story-vue",
+      "title": "AppSidebar",
+      "group": null,
+      "layout": {
+        "type": "single",
+        "iframe": true
+      },
+      "icon": null,
+      "iconColor": null,
+      "docsOnly": false,
+      "variants": [
+        {
+          "id": "src-modules-ui-components-app-sidebar-appsidebar-story-vue-0",
+          "title": "Default",
+          "icon": null,
+          "iconColor": null
+        },
+        {
+          "id": "src-modules-ui-components-app-sidebar-appsidebar-story-vue-1",
+          "title": "Minified",
+          "icon": null,
+          "iconColor": null
+        }
+      ],
+      "relativePath": "src/modules/ui/components/app/sidebar/AppSidebar.story.vue",
+      "supportPluginId": "vue3",
+      "treePath": [
+        "App",
+        "Sidebar",
+        "AppSidebar"
+      ],
+      "virtual": false,
+      "markdownFile": null
+    },
+    {
+      "id": "src-modules-ui-components-app-snackbar-appsnackbar-story-vue",
+      "title": "AppSnackbar",
+      "group": null,
+      "layout": {
+        "type": "single",
+        "iframe": true
+      },
+      "icon": null,
+      "iconColor": null,
+      "docsOnly": false,
+      "variants": [
+        {
+          "id": "src-modules-ui-components-app-snackbar-appsnackbar-story-vue-0",
+          "title": "Default",
+          "icon": null,
+          "iconColor": null
+        }
+      ],
+      "relativePath": "src/modules/ui/components/app/snackbar/AppSnackbar.story.vue",
+      "supportPluginId": "vue3",
+      "treePath": [
+        "App",
+        "Snackbars",
+        "AppSnackbar"
+      ],
+      "virtual": false,
+      "markdownFile": null
+    },
+    {
+      "id": "src-modules-ui-components-app-table-apptable-story-vue",
+      "title": "AppTable",
+      "group": null,
+      "layout": {
+        "type": "single",
+        "iframe": true
+      },
+      "icon": null,
+      "iconColor": null,
+      "docsOnly": false,
+      "variants": [
+        {
+          "id": "src-modules-ui-components-app-table-apptable-story-vue-0",
+          "title": "Default",
+          "icon": null,
+          "iconColor": null
+        }
+      ],
+      "relativePath": "src/modules/ui/components/app/table/AppTable.story.vue",
+      "supportPluginId": "vue3",
+      "treePath": [
+        "App",
+        "Table",
+        "AppTable"
+      ],
+      "virtual": false,
+      "markdownFile": null
+    },
+    {
+      "id": "src-modules-ui-components-app-tabs-apptabs-story-vue",
+      "title": "AppTabs",
+      "group": null,
+      "layout": {
+        "type": "single",
+        "iframe": true
+      },
+      "icon": null,
+      "iconColor": null,
+      "docsOnly": false,
+      "variants": [
+        {
+          "id": "src-modules-ui-components-app-tabs-apptabs-story-vue-0",
+          "title": "Default",
+          "icon": null,
+          "iconColor": null
+        },
+        {
+          "id": "src-modules-ui-components-app-tabs-apptabs-story-vue-1",
+          "title": "Vertical",
+          "icon": null,
+          "iconColor": null
+        }
+      ],
+      "relativePath": "src/modules/ui/components/app/tabs/AppTabs.story.vue",
+      "supportPluginId": "vue3",
+      "treePath": [
+        "App",
+        "Tabs",
+        "AppTabs"
+      ],
+      "virtual": false,
+      "markdownFile": null
+    },
+    {
+      "id": "src-modules-ui-components-app-text-apptext-story-vue",
+      "title": "AppText",
+      "group": null,
+      "layout": {
+        "type": "single",
+        "iframe": true
+      },
+      "icon": null,
+      "iconColor": null,
+      "docsOnly": false,
+      "variants": [
+        {
+          "id": "_default",
+          "title": "default"
+        }
+      ],
+      "relativePath": "src/modules/ui/components/app/text/AppText.story.vue",
+      "supportPluginId": "vue3",
+      "treePath": [
+        "App",
+        "Text",
+        "AppText"
+      ],
+      "virtual": false,
+      "markdownFile": null
+    },
+    {
+      "id": "src-modules-ui-components-app-tooltip-apptooltip-story-vue",
+      "title": "AppTooltip",
+      "group": null,
+      "layout": {
+        "type": "single",
+        "iframe": true
+      },
+      "icon": null,
+      "iconColor": null,
+      "docsOnly": false,
+      "variants": [
+        {
+          "id": "src-modules-ui-components-app-tooltip-apptooltip-story-vue-0",
+          "title": "Default",
+          "icon": null,
+          "iconColor": null
+        },
+        {
+          "id": "src-modules-ui-components-app-tooltip-apptooltip-story-vue-1",
+          "title": "Left",
+          "icon": null,
+          "iconColor": null
+        }
+      ],
+      "relativePath": "src/modules/ui/components/app/tooltip/AppTooltip.story.vue",
+      "supportPluginId": "vue3",
+      "treePath": [
+        "App",
+        "Tooltip",
+        "AppTooltip"
+      ],
+      "virtual": false,
+      "markdownFile": null
+    },
+    {
+      "id": "src-modules-ui-components-forms-checkbox-formcheckbox-story-vue",
+      "title": "FormCheckbox",
+      "group": null,
+      "layout": {
+        "type": "single",
+        "iframe": true
+      },
+      "icon": null,
+      "iconColor": null,
+      "docsOnly": false,
+      "variants": [
+        {
+          "id": "src-modules-ui-components-forms-checkbox-formcheckbox-story-vue-0",
+          "title": "Default",
+          "icon": null,
+          "iconColor": null
+        },
+        {
+          "id": "src-modules-ui-components-forms-checkbox-formcheckbox-story-vue-1",
+          "title": "Group",
+          "icon": null,
+          "iconColor": null
+        },
+        {
+          "id": "src-modules-ui-components-forms-checkbox-formcheckbox-story-vue-2",
+          "title": "Group with labels",
+          "icon": null,
+          "iconColor": null
+        },
+        {
+          "id": "src-modules-ui-components-forms-checkbox-formcheckbox-story-vue-3",
+          "title": "Group with objects",
+          "icon": null,
+          "iconColor": null
+        }
+      ],
+      "relativePath": "src/modules/ui/components/forms/checkbox/FormCheckbox.story.vue",
+      "supportPluginId": "vue3",
+      "treePath": [
+        "Forms",
+        "Input",
+        "FormCheckbox"
+      ],
+      "virtual": false,
+      "markdownFile": null
+    },
+    {
+      "id": "src-modules-ui-components-forms-field-forminputfield-story-vue",
+      "title": "Field",
+      "group": null,
+      "layout": {
+        "type": "single",
+        "iframe": true
+      },
+      "icon": null,
+      "iconColor": null,
+      "docsOnly": false,
+      "variants": [
+        {
+          "id": "src-modules-ui-components-forms-field-forminputfield-story-vue-0",
+          "title": "Default",
+          "icon": null,
+          "iconColor": null
+        },
+        {
+          "id": "src-modules-ui-components-forms-field-forminputfield-story-vue-1",
+          "title": "Label",
+          "icon": null,
+          "iconColor": null
+        },
+        {
+          "id": "src-modules-ui-components-forms-field-forminputfield-story-vue-2",
+          "title": "Placeholder",
+          "icon": null,
+          "iconColor": null
+        },
+        {
+          "id": "src-modules-ui-components-forms-field-forminputfield-story-vue-3",
+          "title": "Unit",
+          "icon": null,
+          "iconColor": null
+        },
+        {
+          "id": "src-modules-ui-components-forms-field-forminputfield-story-vue-4",
+          "title": "Number",
+          "icon": null,
+          "iconColor": null
+        },
+        {
+          "id": "src-modules-ui-components-forms-field-forminputfield-story-vue-5",
+          "title": "Disabled",
+          "icon": null,
+          "iconColor": null
+        },
+        {
+          "id": "src-modules-ui-components-forms-field-forminputfield-story-vue-6",
+          "title": "Readonly",
+          "icon": null,
+          "iconColor": null
+        },
+        {
+          "id": "src-modules-ui-components-forms-field-forminputfield-story-vue-7",
+          "title": "Success",
+          "icon": null,
+          "iconColor": null
+        },
+        {
+          "id": "src-modules-ui-components-forms-field-forminputfield-story-vue-8",
+          "title": "Error",
+          "icon": null,
+          "iconColor": null
+        },
+        {
+          "id": "src-modules-ui-components-forms-field-forminputfield-story-vue-9",
+          "title": "Front content",
+          "icon": null,
+          "iconColor": null
+        },
+        {
+          "id": "src-modules-ui-components-forms-field-forminputfield-story-vue-10",
+          "title": "Back content",
+          "icon": null,
+          "iconColor": null
+        },
+        {
+          "id": "src-modules-ui-components-forms-field-forminputfield-story-vue-11",
+          "title": "Group",
+          "icon": null,
+          "iconColor": null
+        }
+      ],
+      "relativePath": "src/modules/ui/components/forms/field/FormInputField.story.vue",
+      "supportPluginId": "vue3",
+      "treePath": [
+        "Forms",
+        "Input",
+        "Field"
+      ],
+      "virtual": false,
+      "markdownFile": null
+    },
+    {
+      "id": "src-modules-ui-components-forms-radio-formradio-story-vue",
+      "title": "FormRadio",
+      "group": null,
+      "layout": {
+        "type": "single",
+        "iframe": true
+      },
+      "icon": null,
+      "iconColor": null,
+      "docsOnly": false,
+      "variants": [
+        {
+          "id": "src-modules-ui-components-forms-radio-formradio-story-vue-0",
+          "title": "Default",
+          "icon": null,
+          "iconColor": null
+        },
+        {
+          "id": "src-modules-ui-components-forms-radio-formradio-story-vue-1",
+          "title": "With title",
+          "icon": null,
+          "iconColor": null
+        },
+        {
+          "id": "src-modules-ui-components-forms-radio-formradio-story-vue-2",
+          "title": "With label",
+          "icon": null,
+          "iconColor": null
+        },
+        {
+          "id": "src-modules-ui-components-forms-radio-formradio-story-vue-3",
+          "title": "With slot",
+          "icon": null,
+          "iconColor": null
+        }
+      ],
+      "relativePath": "src/modules/ui/components/forms/radio/FormRadio.story.vue",
+      "supportPluginId": "vue3",
+      "treePath": [
+        "Forms",
+        "Input",
+        "FormRadio"
+      ],
+      "virtual": false,
+      "markdownFile": null
+    },
+    {
+      "id": "src-modules-ui-components-forms-select-formselect-story-vue",
+      "title": "Select",
+      "group": null,
+      "layout": {
+        "type": "single",
+        "iframe": true
+      },
+      "icon": null,
+      "iconColor": null,
+      "docsOnly": false,
+      "variants": [
+        {
+          "id": "src-modules-ui-components-forms-select-formselect-story-vue-0",
+          "title": "Default",
+          "icon": null,
+          "iconColor": null
+        },
+        {
+          "id": "src-modules-ui-components-forms-select-formselect-story-vue-1",
+          "title": "Loading",
+          "icon": null,
+          "iconColor": null
+        },
+        {
+          "id": "src-modules-ui-components-forms-select-formselect-story-vue-2",
+          "title": "Empty",
+          "icon": null,
+          "iconColor": null
+        },
+        {
+          "id": "src-modules-ui-components-forms-select-formselect-story-vue-3",
+          "title": "Multiple",
+          "icon": null,
+          "iconColor": null
+        },
+        {
+          "id": "src-modules-ui-components-forms-select-formselect-story-vue-4",
+          "title": "Search",
+          "icon": null,
+          "iconColor": null
+        },
+        {
+          "id": "src-modules-ui-components-forms-select-formselect-story-vue-5",
+          "title": "Search with objects",
+          "icon": null,
+          "iconColor": null
+        }
+      ],
+      "relativePath": "src/modules/ui/components/forms/select/FormSelect.story.vue",
+      "supportPluginId": "vue3",
+      "treePath": [
+        "Forms",
+        "Input",
+        "Select"
+      ],
+      "virtual": false,
+      "markdownFile": null
+    },
+    {
+      "id": "src-modules-ui-components-forms-slider-formslider-story-vue",
+      "title": "Slider",
+      "group": null,
+      "layout": {
+        "type": "single",
+        "iframe": true
+      },
+      "icon": null,
+      "iconColor": null,
+      "docsOnly": false,
+      "variants": [
+        {
+          "id": "src-modules-ui-components-forms-slider-formslider-story-vue-0",
+          "title": "Default",
+          "icon": null,
+          "iconColor": null
+        },
+        {
+          "id": "src-modules-ui-components-forms-slider-formslider-story-vue-1",
+          "title": "Disabled value",
+          "icon": null,
+          "iconColor": null
+        },
+        {
+          "id": "src-modules-ui-components-forms-slider-formslider-story-vue-2",
+          "title": "Disabled",
+          "icon": null,
+          "iconColor": null
+        },
+        {
+          "id": "src-modules-ui-components-forms-slider-formslider-story-vue-3",
+          "title": "Percent progress",
+          "icon": null,
+          "iconColor": null
+        },
+        {
+          "id": "src-modules-ui-components-forms-slider-formslider-story-vue-4",
+          "title": "Measurement progress with max label",
+          "icon": null,
+          "iconColor": null
+        },
+        {
+          "id": "src-modules-ui-components-forms-slider-formslider-story-vue-5",
+          "title": "Slider groups",
+          "icon": null,
+          "iconColor": null
+        }
+      ],
+      "relativePath": "src/modules/ui/components/forms/slider/FormSlider.story.vue",
+      "supportPluginId": "vue3",
+      "treePath": [
+        "Forms",
+        "Input",
+        "Slider"
+      ],
+      "virtual": false,
+      "markdownFile": null
+    },
+    {
+      "id": "src-modules-ui-components-app-buttons-app-button-appbutton-story-vue",
+      "title": "AppButton",
+      "group": null,
+      "layout": {
+        "type": "single",
+        "iframe": true
+      },
+      "icon": null,
+      "iconColor": null,
+      "docsOnly": false,
+      "variants": [
+        {
+          "id": "src-modules-ui-components-app-buttons-app-button-appbutton-story-vue-0",
+          "title": "Default",
+          "icon": null,
+          "iconColor": null
+        }
+      ],
+      "relativePath": "src/modules/ui/components/app/buttons/app-button/AppButton.story.vue",
+      "supportPluginId": "vue3",
+      "treePath": [
+        "App",
+        "Buttons",
+        "AppButton"
+      ],
+      "virtual": false,
+      "markdownFile": null
+    },
+    {
+      "id": "src-modules-ui-components-app-buttons-app-confirm-button-appconfirmbutton-story-vue",
+      "title": "AppConfirmButton",
+      "group": null,
+      "layout": {
+        "type": "single",
+        "iframe": true
+      },
+      "icon": null,
+      "iconColor": null,
+      "docsOnly": false,
+      "variants": [
+        {
+          "id": "src-modules-ui-components-app-buttons-app-confirm-button-appconfirmbutton-story-vue-0",
+          "title": "Default",
+          "icon": null,
+          "iconColor": null
+        }
+      ],
+      "relativePath": "src/modules/ui/components/app/buttons/app-confirm-button/AppConfirmButton.story.vue",
+      "supportPluginId": "vue3",
+      "treePath": [
+        "App",
+        "Buttons",
+        "AppConfirmButton"
+      ],
+      "virtual": false,
+      "markdownFile": null
+    },
+    {
+      "id": "src-modules-ui-components-app-buttons-app-dropdown-button-appdropdownbutton-story-vue",
+      "title": "AppDropdownButton",
+      "group": null,
+      "layout": {
+        "type": "single",
+        "iframe": true
+      },
+      "icon": null,
+      "iconColor": null,
+      "docsOnly": false,
+      "variants": [
+        {
+          "id": "src-modules-ui-components-app-buttons-app-dropdown-button-appdropdownbutton-story-vue-0",
+          "title": "Default",
+          "icon": null,
+          "iconColor": null
+        },
+        {
+          "id": "src-modules-ui-components-app-buttons-app-dropdown-button-appdropdownbutton-story-vue-1",
+          "title": "List",
+          "icon": null,
+          "iconColor": null
+        }
+      ],
+      "relativePath": "src/modules/ui/components/app/buttons/app-dropdown-button/AppDropdownButton.story.vue",
+      "supportPluginId": "vue3",
+      "treePath": [
+        "App",
+        "Buttons",
+        "AppDropdownButton"
+      ],
+      "virtual": false,
+      "markdownFile": null
+    },
+    {
+      "id": "src-modules-ui-components-app-buttons-app-icon-button-appiconbutton-story-vue",
+      "title": "AppIconButton",
+      "group": null,
+      "layout": {
+        "type": "single",
+        "iframe": true
+      },
+      "icon": null,
+      "iconColor": null,
+      "docsOnly": false,
+      "variants": [
+        {
+          "id": "src-modules-ui-components-app-buttons-app-icon-button-appiconbutton-story-vue-0",
+          "title": "Default",
+          "icon": null,
+          "iconColor": null
+        }
+      ],
+      "relativePath": "src/modules/ui/components/app/buttons/app-icon-button/AppIconButton.story.vue",
+      "supportPluginId": "vue3",
+      "treePath": [
+        "App",
+        "Buttons",
+        "AppIconButton"
+      ],
+      "virtual": false,
+      "markdownFile": null
+    },
+    {
+      "id": "tailwind",
+      "title": "Tailwind",
+      "group": "design-system",
+      "layout": {
+        "type": "single",
+        "iframe": false
+      },
+      "icon": "mdi:tailwind",
+      "docsOnly": false,
+      "variants": [
+        {
+          "id": "background-color",
+          "title": "Background Color",
+          "icon": "carbon:color-palette"
+        },
+        {
+          "id": "text-color",
+          "title": "Text Color",
+          "icon": "carbon:text-color"
+        },
+        {
+          "id": "border-color",
+          "title": "Border Color",
+          "icon": "carbon:color-palette"
+        },
+        {
+          "id": "padding",
+          "title": "Padding",
+          "icon": "carbon:area"
+        },
+        {
+          "id": "margin",
+          "title": "Margin",
+          "icon": "carbon:area"
+        },
+        {
+          "id": "font-size",
+          "title": "Font Size",
+          "icon": "carbon:text-font"
+        },
+        {
+          "id": "font-weight",
+          "title": "Font Weight",
+          "icon": "carbon:text-font"
+        },
+        {
+          "id": "font-family",
+          "title": "Font Family",
+          "icon": "carbon:text-font"
+        },
+        {
+          "id": "letter-spacing",
+          "title": "Letter Spacing",
+          "icon": "carbon:text-font"
+        },
+        {
+          "id": "line-height",
+          "title": "Line Height",
+          "icon": "carbon:text-font"
+        },
+        {
+          "id": "drop-shadow",
+          "title": "Drop Shadow",
+          "icon": "carbon:shape-except"
+        },
+        {
+          "id": "border-radius",
+          "title": "Border Radius",
+          "icon": "carbon:condition-wait-point"
+        },
+        {
+          "id": "border-width",
+          "title": "Border Width",
+          "icon": "carbon:checkbox"
+        },
+        {
+          "id": "width",
+          "title": "Width",
+          "icon": "carbon:pan-horizontal"
+        },
+        {
+          "id": "height",
+          "title": "Height",
+          "icon": "carbon:pan-vertical"
+        },
+        {
+          "id": "full-config",
+          "title": "Full Config",
+          "icon": "carbon:code"
+        }
+      ],
+      "relativePath": "/home/runner/work/wisemen-components/wisemen-components/node_modules/.histoire/plugins/builtin_tailwind-tokens/Tailwind.story.js",
+      "supportPluginId": "vanilla",
+      "treePath": [
+        "Tailwind"
+      ],
+      "virtual": false,
+      "markdownFile": null
+    }
+  ],
+  "markdownFiles": []
+}
