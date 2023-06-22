@@ -754,26 +754,30 @@
       "markdownFile": null
     },
     {
-      "id": "src-histoire-introduction-story-js",
+      "id": "docs-introduction-story-js",
       "title": "Introduction",
+      "group": "top",
       "layout": {
         "type": "single",
         "iframe": true
       },
-      "icon": "carbon:document-blank",
+      "icon": "carbon:bookmark",
       "docsOnly": true,
       "variants": [],
-      "relativePath": "src/histoire/Introduction.story.js",
+      "relativePath": "docs/Introduction.story.js",
       "supportPluginId": "vanilla",
       "treePath": [
         "Introduction"
       ],
       "virtual": true,
       "markdownFile": {
-        "id": "src-histoire-introduction-story-md",
-        "relativePath": "src/histoire/Introduction.story.md",
+        "id": "docs-introduction-story-md",
+        "relativePath": "docs/Introduction.story.md",
         "isRelatedToStory": false,
-        "frontmatter": {}
+        "frontmatter": {
+          "group": "top",
+          "icon": "carbon:bookmark"
+        }
       }
     },
     {
@@ -879,10 +883,13 @@
   ],
   "markdownFiles": [
     {
-      "id": "src-histoire-introduction-story-md",
-      "relativePath": "src/histoire/Introduction.story.md",
+      "id": "docs-introduction-story-md",
+      "relativePath": "docs/Introduction.story.md",
       "isRelatedToStory": false,
-      "frontmatter": {}
+      "frontmatter": {
+        "group": "top",
+        "icon": "carbon:bookmark"
+      }
     }
   ]
 }
