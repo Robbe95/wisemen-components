@@ -141,7 +141,7 @@
       "markdownFile": null
     },
     {
-      "id": "src-modules-ui-components-app-modals-appmodal-story-vue",
+      "id": "src-modules-ui-components-app-modal-appmodal-story-vue",
       "title": "AppModal",
       "group": null,
       "layout": {
@@ -153,13 +153,13 @@
       "docsOnly": false,
       "variants": [
         {
-          "id": "src-modules-ui-components-app-modals-appmodal-story-vue-0",
+          "id": "src-modules-ui-components-app-modal-appmodal-story-vue-0",
           "title": "Default",
           "icon": null,
           "iconColor": null
         }
       ],
-      "relativePath": "src/modules/ui/components/app/modals/AppModal.story.vue",
+      "relativePath": "src/modules/ui/components/app/modal/AppModal.story.vue",
       "supportPluginId": "vue3",
       "treePath": [
         "App",
@@ -339,8 +339,10 @@
       "docsOnly": false,
       "variants": [
         {
-          "id": "_default",
-          "title": "default"
+          "id": "src-modules-ui-components-app-text-apptext-story-vue-0",
+          "title": "Default",
+          "icon": null,
+          "iconColor": null
         }
       ],
       "relativePath": "src/modules/ui/components/app/text/AppText.story.vue",
