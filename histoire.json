@@ -754,6 +754,29 @@
       "markdownFile": null
     },
     {
+      "id": "src-histoire-introduction-story-js",
+      "title": "Introduction",
+      "layout": {
+        "type": "single",
+        "iframe": true
+      },
+      "icon": "carbon:document-blank",
+      "docsOnly": true,
+      "variants": [],
+      "relativePath": "src/histoire/Introduction.story.js",
+      "supportPluginId": "vanilla",
+      "treePath": [
+        "Introduction"
+      ],
+      "virtual": true,
+      "markdownFile": {
+        "id": "src-histoire-introduction-story-md",
+        "relativePath": "src/histoire/Introduction.story.md",
+        "isRelatedToStory": false,
+        "frontmatter": {}
+      }
+    },
+    {
       "id": "tailwind",
       "title": "Tailwind",
       "group": "design-system",
@@ -854,5 +877,12 @@
       "markdownFile": null
     }
   ],
-  "markdownFiles": []
+  "markdownFiles": [
+    {
+      "id": "src-histoire-introduction-story-md",
+      "relativePath": "src/histoire/Introduction.story.md",
+      "isRelatedToStory": false,
+      "frontmatter": {}
+    }
+  ]
 }
