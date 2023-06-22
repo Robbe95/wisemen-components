@@ -1,1 +1,0 @@
-function n(){let e=new Date().getTime(),r=typeof performance<"u"&&performance.now&&performance.now()*1e3||0;return"xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g,t=>{let x=Math.random()*16;return e>0?(x=(e+x)%16|0,e=Math.floor(e/16)):(x=(r+x)%16|0,r=Math.floor(r/16)),(t==="x"?x:x&3|8).toString(16)})}export{n as g};
