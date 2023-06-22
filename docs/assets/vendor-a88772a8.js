@@ -72983,7 +72983,7 @@ const queryFunctions = {
 };
 const exampleRouter = [
   {
-    component: () => __vitePreload(() => import("./ExampleApiPage-17e9138a.js"), true ? ["dist/docs/assets/ExampleApiPage-17e9138a.js","dist/docs/assets/_plugin-vue_export-helper-cc2b3d55.js"] : void 0),
+    component: () => __vitePreload(() => import("./ExampleApiPage-17e9138a.js"), true ? ["assets/ExampleApiPage-17e9138a.js","assets/_plugin-vue_export-helper-cc2b3d55.js"] : void 0),
     name: routeNames.EXAMPLE_INDEX,
     path: "example",
     meta: {
@@ -72991,7 +72991,7 @@ const exampleRouter = [
     }
   },
   {
-    component: () => __vitePreload(() => import("./ExampleFormPage-24daa01d.js"), true ? ["dist/docs/assets/ExampleFormPage-24daa01d.js","dist/docs/assets/FormInputField-29640169.js","dist/docs/assets/TransitionExpand-235cdcb0.js","dist/docs/assets/_plugin-vue_export-helper-cc2b3d55.js","dist/docs/assets/generateUuid-c290b5d9.js","dist/docs/assets/useFormInputGroupContext-74e5a7b6.js","dist/docs/assets/AppButton-d7571d98.js","dist/docs/assets/fade.transition-ff73e3ee.js","dist/docs/assets/AppIcon-5add2816.js","dist/docs/assets/CheckmarkIcon-6adcc9e8.js","dist/docs/assets/CloseIcon-ef811616.js"] : void 0),
+    component: () => __vitePreload(() => import("./ExampleFormPage-24daa01d.js"), true ? ["assets/ExampleFormPage-24daa01d.js","assets/FormInputField-29640169.js","assets/TransitionExpand-235cdcb0.js","assets/_plugin-vue_export-helper-cc2b3d55.js","assets/generateUuid-c290b5d9.js","assets/useFormInputGroupContext-74e5a7b6.js","assets/AppButton-d7571d98.js","assets/fade.transition-ff73e3ee.js","assets/AppIcon-5add2816.js","assets/CheckmarkIcon-6adcc9e8.js","assets/CloseIcon-ef811616.js"] : void 0),
     name: routeNames.EXAMPLE_FORM,
     path: "example-form"
   }
@@ -72999,16 +72999,16 @@ const exampleRouter = [
 const routes = [
   {
     path: "/",
-    component: () => __vitePreload(() => import("./Main-a4640c14.js"), true ? ["dist/docs/assets/Main-a4640c14.js","dist/docs/assets/_plugin-vue_export-helper-cc2b3d55.js"] : void 0),
+    component: () => __vitePreload(() => import("./Main-a4640c14.js"), true ? ["assets/Main-a4640c14.js","assets/_plugin-vue_export-helper-cc2b3d55.js"] : void 0),
     name: routeNames.MAIN,
     children: [
       {
-        component: () => __vitePreload(() => import("./Index-bcc782c4.js"), true ? ["dist/docs/assets/Index-bcc782c4.js","dist/docs/assets/_plugin-vue_export-helper-cc2b3d55.js","dist/docs/assets/generateUuid-c290b5d9.js","dist/docs/assets/AppButton-d7571d98.js","dist/docs/assets/fade.transition-ff73e3ee.js","dist/docs/assets/AppIcon-5add2816.js","dist/docs/assets/CheckmarkIcon-6adcc9e8.js","dist/docs/assets/CloseIcon-ef811616.js"] : void 0),
+        component: () => __vitePreload(() => import("./Index-bcc782c4.js"), true ? ["assets/Index-bcc782c4.js","assets/_plugin-vue_export-helper-cc2b3d55.js","assets/generateUuid-c290b5d9.js","assets/AppButton-d7571d98.js","assets/fade.transition-ff73e3ee.js","assets/AppIcon-5add2816.js","assets/CheckmarkIcon-6adcc9e8.js","assets/CloseIcon-ef811616.js"] : void 0),
         name: routeNames.INDEX,
         path: ""
       },
       {
-        component: () => __vitePreload(() => import("./ComponentView-a405793b.js"), true ? ["dist/docs/assets/ComponentView-a405793b.js","dist/docs/assets/_plugin-vue_export-helper-cc2b3d55.js"] : void 0),
+        component: () => __vitePreload(() => import("./ComponentView-a405793b.js"), true ? ["assets/ComponentView-a405793b.js","assets/_plugin-vue_export-helper-cc2b3d55.js"] : void 0),
         name: routeNames.COMPONENT,
         path: "component/:componentName"
       },
