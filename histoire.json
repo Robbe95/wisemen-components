@@ -5,8 +5,8 @@
       "title": "AppCollapse",
       "group": null,
       "layout": {
-        "type": "single",
-        "iframe": true
+        "type": "grid",
+        "width": "100%"
       },
       "icon": null,
       "iconColor": null,
@@ -19,6 +19,7 @@
           "iconColor": null
         }
       ],
+      "autoPropsDisabled": true,
       "relativePath": "src/modules/ui/components/app/collapse/AppCollapse.story.vue",
       "supportPluginId": "vue3",
       "treePath": [
@@ -34,8 +35,8 @@
       "title": "AppDivider",
       "group": null,
       "layout": {
-        "type": "single",
-        "iframe": true
+        "type": "grid",
+        "width": "100%"
       },
       "icon": null,
       "iconColor": null,
@@ -66,6 +67,7 @@
           "iconColor": null
         }
       ],
+      "autoPropsDisabled": true,
       "relativePath": "src/modules/ui/components/app/divider/AppDivider.story.vue",
       "supportPluginId": "vue3",
       "treePath": [
@@ -81,8 +83,8 @@
       "title": "AppImage",
       "group": null,
       "layout": {
-        "type": "single",
-        "iframe": true
+        "type": "grid",
+        "width": "100%"
       },
       "icon": null,
       "iconColor": null,
@@ -101,6 +103,7 @@
           "iconColor": null
         }
       ],
+      "autoPropsDisabled": true,
       "relativePath": "src/modules/ui/components/app/image/AppImage.story.vue",
       "supportPluginId": "vue3",
       "treePath": [
@@ -116,8 +119,8 @@
       "title": "AppLoader",
       "group": null,
       "layout": {
-        "type": "single",
-        "iframe": true
+        "type": "grid",
+        "width": "100%"
       },
       "icon": null,
       "iconColor": null,
@@ -130,6 +133,7 @@
           "iconColor": null
         }
       ],
+      "autoPropsDisabled": true,
       "relativePath": "src/modules/ui/components/app/loaders/AppLoader.story.vue",
       "supportPluginId": "vue3",
       "treePath": [
@@ -145,8 +149,8 @@
       "title": "AppModal",
       "group": null,
       "layout": {
-        "type": "single",
-        "iframe": true
+        "type": "grid",
+        "width": "100%"
       },
       "icon": null,
       "iconColor": null,
@@ -159,6 +163,7 @@
           "iconColor": null
         }
       ],
+      "autoPropsDisabled": true,
       "relativePath": "src/modules/ui/components/app/modal/AppModal.story.vue",
       "supportPluginId": "vue3",
       "treePath": [
@@ -174,8 +179,8 @@
       "title": "AppPagination",
       "group": null,
       "layout": {
-        "type": "single",
-        "iframe": true
+        "type": "grid",
+        "width": "100%"
       },
       "icon": null,
       "iconColor": null,
@@ -188,6 +193,7 @@
           "iconColor": null
         }
       ],
+      "autoPropsDisabled": true,
       "relativePath": "src/modules/ui/components/app/pagination/AppPagination.story.vue",
       "supportPluginId": "vue3",
       "treePath": [
@@ -203,8 +209,8 @@
       "title": "AppPopover",
       "group": null,
       "layout": {
-        "type": "single",
-        "iframe": true
+        "type": "grid",
+        "width": "100%"
       },
       "icon": null,
       "iconColor": null,
@@ -217,6 +223,7 @@
           "iconColor": null
         }
       ],
+      "autoPropsDisabled": true,
       "relativePath": "src/modules/ui/components/app/popover/AppPopover.story.vue",
       "supportPluginId": "vue3",
       "treePath": [
@@ -232,8 +239,8 @@
       "title": "AppSidebar",
       "group": null,
       "layout": {
-        "type": "single",
-        "iframe": true
+        "type": "grid",
+        "width": "100%"
       },
       "icon": null,
       "iconColor": null,
@@ -252,6 +259,7 @@
           "iconColor": null
         }
       ],
+      "autoPropsDisabled": true,
       "relativePath": "src/modules/ui/components/app/sidebar/AppSidebar.story.vue",
       "supportPluginId": "vue3",
       "treePath": [
@@ -267,8 +275,8 @@
       "title": "AppSnackbar",
       "group": null,
       "layout": {
-        "type": "single",
-        "iframe": true
+        "type": "grid",
+        "width": "100%"
       },
       "icon": null,
       "iconColor": null,
@@ -281,6 +289,7 @@
           "iconColor": null
         }
       ],
+      "autoPropsDisabled": true,
       "relativePath": "src/modules/ui/components/app/snackbar/AppSnackbar.story.vue",
       "supportPluginId": "vue3",
       "treePath": [
@@ -296,8 +305,8 @@
       "title": "AppTable",
       "group": null,
       "layout": {
-        "type": "single",
-        "iframe": true
+        "type": "grid",
+        "width": "100%"
       },
       "icon": null,
       "iconColor": null,
@@ -310,6 +319,7 @@
           "iconColor": null
         }
       ],
+      "autoPropsDisabled": true,
       "relativePath": "src/modules/ui/components/app/table/AppTable.story.vue",
       "supportPluginId": "vue3",
       "treePath": [
@@ -325,8 +335,8 @@
       "title": "AppTabs",
       "group": null,
       "layout": {
-        "type": "single",
-        "iframe": true
+        "type": "grid",
+        "width": "100%"
       },
       "icon": null,
       "iconColor": null,
@@ -345,6 +355,7 @@
           "iconColor": null
         }
       ],
+      "autoPropsDisabled": true,
       "relativePath": "src/modules/ui/components/app/tabs/AppTabs.story.vue",
       "supportPluginId": "vue3",
       "treePath": [
@@ -360,8 +371,8 @@
       "title": "AppText",
       "group": null,
       "layout": {
-        "type": "single",
-        "iframe": true
+        "type": "grid",
+        "width": "100%"
       },
       "icon": null,
       "iconColor": null,
@@ -374,6 +385,7 @@
           "iconColor": null
         }
       ],
+      "autoPropsDisabled": true,
       "relativePath": "src/modules/ui/components/app/text/AppText.story.vue",
       "supportPluginId": "vue3",
       "treePath": [
@@ -389,8 +401,8 @@
       "title": "AppTooltip",
       "group": null,
       "layout": {
-        "type": "single",
-        "iframe": true
+        "type": "grid",
+        "width": "100%"
       },
       "icon": null,
       "iconColor": null,
@@ -409,6 +421,7 @@
           "iconColor": null
         }
       ],
+      "autoPropsDisabled": true,
       "relativePath": "src/modules/ui/components/app/tooltip/AppTooltip.story.vue",
       "supportPluginId": "vue3",
       "treePath": [
@@ -424,8 +437,8 @@
       "title": "FormCheckbox",
       "group": null,
       "layout": {
-        "type": "single",
-        "iframe": true
+        "type": "grid",
+        "width": "100%"
       },
       "icon": null,
       "iconColor": null,
@@ -456,6 +469,7 @@
           "iconColor": null
         }
       ],
+      "autoPropsDisabled": true,
       "relativePath": "src/modules/ui/components/forms/checkbox/FormCheckbox.story.vue",
       "supportPluginId": "vue3",
       "treePath": [
@@ -471,8 +485,8 @@
       "title": "Field",
       "group": null,
       "layout": {
-        "type": "single",
-        "iframe": true
+        "type": "grid",
+        "width": "100%"
       },
       "icon": null,
       "iconColor": null,
@@ -485,6 +499,7 @@
           "iconColor": null
         }
       ],
+      "autoPropsDisabled": true,
       "relativePath": "src/modules/ui/components/forms/field/FormInputField.story.vue",
       "supportPluginId": "vue3",
       "treePath": [
@@ -500,8 +515,8 @@
       "title": "FormRadio",
       "group": null,
       "layout": {
-        "type": "single",
-        "iframe": true
+        "type": "grid",
+        "width": "100%"
       },
       "icon": null,
       "iconColor": null,
@@ -532,6 +547,7 @@
           "iconColor": null
         }
       ],
+      "autoPropsDisabled": true,
       "relativePath": "src/modules/ui/components/forms/radio/FormRadio.story.vue",
       "supportPluginId": "vue3",
       "treePath": [
@@ -547,8 +563,8 @@
       "title": "Select",
       "group": null,
       "layout": {
-        "type": "single",
-        "iframe": true
+        "type": "grid",
+        "width": "100%"
       },
       "icon": null,
       "iconColor": null,
@@ -591,6 +607,7 @@
           "iconColor": null
         }
       ],
+      "autoPropsDisabled": true,
       "relativePath": "src/modules/ui/components/forms/select/FormSelect.story.vue",
       "supportPluginId": "vue3",
       "treePath": [
@@ -602,12 +619,42 @@
       "markdownFile": null
     },
     {
+      "id": "src-modules-ui-components-forms-select-formselect2-story-vue",
+      "title": "Select2",
+      "group": null,
+      "layout": {
+        "type": "grid",
+        "width": "100%"
+      },
+      "icon": null,
+      "iconColor": null,
+      "docsOnly": false,
+      "variants": [
+        {
+          "id": "src-modules-ui-components-forms-select-formselect2-story-vue-0",
+          "title": "Default",
+          "icon": null,
+          "iconColor": null
+        }
+      ],
+      "autoPropsDisabled": true,
+      "relativePath": "src/modules/ui/components/forms/select/FormSelect2.story.vue",
+      "supportPluginId": "vue3",
+      "treePath": [
+        "Forms",
+        "Input",
+        "Select2"
+      ],
+      "virtual": false,
+      "markdownFile": null
+    },
+    {
       "id": "src-modules-ui-components-forms-slider-formslider-story-vue",
       "title": "Slider",
       "group": null,
       "layout": {
-        "type": "single",
-        "iframe": true
+        "type": "grid",
+        "width": "100%"
       },
       "icon": null,
       "iconColor": null,
@@ -650,6 +697,7 @@
           "iconColor": null
         }
       ],
+      "autoPropsDisabled": true,
       "relativePath": "src/modules/ui/components/forms/slider/FormSlider.story.vue",
       "supportPluginId": "vue3",
       "treePath": [
@@ -665,8 +713,8 @@
       "title": "AppButton",
       "group": null,
       "layout": {
-        "type": "single",
-        "iframe": true
+        "type": "grid",
+        "width": "100%"
       },
       "icon": null,
       "iconColor": null,
@@ -679,6 +727,7 @@
           "iconColor": null
         }
       ],
+      "autoPropsDisabled": true,
       "relativePath": "src/modules/ui/components/app/buttons/app-button/AppButton.story.vue",
       "supportPluginId": "vue3",
       "treePath": [
@@ -694,8 +743,8 @@
       "title": "AppConfirmButton",
       "group": null,
       "layout": {
-        "type": "single",
-        "iframe": true
+        "type": "grid",
+        "width": "100%"
       },
       "icon": null,
       "iconColor": null,
@@ -708,6 +757,7 @@
           "iconColor": null
         }
       ],
+      "autoPropsDisabled": true,
       "relativePath": "src/modules/ui/components/app/buttons/app-confirm-button/AppConfirmButton.story.vue",
       "supportPluginId": "vue3",
       "treePath": [
@@ -723,8 +773,8 @@
       "title": "AppDropdownButton",
       "group": null,
       "layout": {
-        "type": "single",
-        "iframe": true
+        "type": "grid",
+        "width": "100%"
       },
       "icon": null,
       "iconColor": null,
@@ -743,6 +793,7 @@
           "iconColor": null
         }
       ],
+      "autoPropsDisabled": true,
       "relativePath": "src/modules/ui/components/app/buttons/app-dropdown-button/AppDropdownButton.story.vue",
       "supportPluginId": "vue3",
       "treePath": [
@@ -758,8 +809,8 @@
       "title": "AppIconButton",
       "group": null,
       "layout": {
-        "type": "single",
-        "iframe": true
+        "type": "grid",
+        "width": "100%"
       },
       "icon": null,
       "iconColor": null,
@@ -772,6 +823,7 @@
           "iconColor": null
         }
       ],
+      "autoPropsDisabled": true,
       "relativePath": "src/modules/ui/components/app/buttons/app-icon-button/AppIconButton.story.vue",
       "supportPluginId": "vue3",
       "treePath": [
@@ -793,6 +845,7 @@
       "icon": "carbon:bookmark",
       "docsOnly": true,
       "variants": [],
+      "autoPropsDisabled": true,
       "relativePath": "docs/Introduction.story.js",
       "supportPluginId": "vanilla",
       "treePath": [
@@ -901,6 +954,7 @@
           "icon": "carbon:code"
         }
       ],
+      "autoPropsDisabled": true,
       "relativePath": "/home/runner/work/wisemen-components/wisemen-components/node_modules/.histoire/plugins/builtin_tailwind-tokens/Tailwind.story.js",
       "supportPluginId": "vanilla",
       "treePath": [

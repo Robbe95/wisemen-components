@@ -326,7 +326,7 @@
         "dir": "./src/transitions",
         "placementDir": "",
         "type": "transitions",
-        "content": "export interface TransitionClasses {\n  enterFromClass?: string\n  enterActiveClass?: string\n  enterToClass?: string\n  leaveFromClass?: string\n  leaveActiveClass?: string\n  leaveToClass?: string\n  moveClass?: string\n}\n\nexport * from './scaleBounce.transition'\nexport * from './snackbar.transition'\nexport * from './fade.transition'\nexport * from './list.transition'\nexport * from './staticList.transition'\n"
+        "content": "export interface TransitionClasses {\n  enterFromClass?: string\n  enterActiveClass?: string\n  enterToClass?: string\n  leaveFromClass?: string\n  leaveActiveClass?: string\n  leaveToClass?: string\n  moveClass?: string\n\n  enterFrom?: string\n  enter?: string\n  enterTo?: string\n  leaveFrom?: string\n  leave?: string\n  leaveTo?: string\n  move?: string\n\n}\n\nexport * from './scaleBounce.transition'\nexport * from './snackbar.transition'\nexport * from './fade.transition'\nexport * from './list.transition'\nexport * from './staticList.transition'\n"
       },
       {
         "name": "fade.transition.ts",
@@ -347,7 +347,7 @@
         "dir": "./src/transitions",
         "placementDir": "",
         "type": "transitions",
-        "content": "import type { TransitionClasses } from '.'\n\nexport const scaleBounceTransition: TransitionClasses = {\n  enterFromClass: 'scale-0 opacity-0',\n  enterActiveClass: '[transition:cubic-bezier(.8,.16,0,1.3)_0.5s_transform,0.2s_opacity]',\n  enterToClass: '',\n  leaveFromClass: '',\n  leaveActiveClass: '[transition:cubic-bezier(.8,.16,0,1.3)_0.5s_transform,0.2s_opacity]',\n  leaveToClass: 'scale-0 opacity-0',\n}\n"
+        "content": "import type { TransitionClasses } from '.'\n\nexport const scaleBounceTransition: TransitionClasses = {\n  enterFromClass: 'scale-0 opacity-0',\n  enterActiveClass: 'transition-scale-bounce',\n  enterToClass: 'scale-100 opacity-100',\n  leaveFromClass: 'scale-100 opacity-100',\n  leaveActiveClass: 'transition-scale-bounce',\n  leaveToClass: 'scale-0 opacity-0',\n\n  enterFrom: 'scale-0 opacity-0',\n  enter: 'transition-scale-bounce',\n  enterTo: 'scale-100 opacity-100',\n  leaveFrom: 'scale-100 opacity-100',\n  leave: 'transition-scale-bounce',\n  leaveTo: 'scale-0 opacity-0',\n}\n"
       },
       {
         "name": "snackbar.transition.ts",
