@@ -199,6 +199,35 @@
       "markdownFile": null
     },
     {
+      "id": "src-modules-ui-components-app-popover-apppopover-story-vue",
+      "title": "AppPopover",
+      "group": null,
+      "layout": {
+        "type": "single",
+        "iframe": true
+      },
+      "icon": null,
+      "iconColor": null,
+      "docsOnly": false,
+      "variants": [
+        {
+          "id": "src-modules-ui-components-app-popover-apppopover-story-vue-0",
+          "title": "Default",
+          "icon": null,
+          "iconColor": null
+        }
+      ],
+      "relativePath": "src/modules/ui/components/app/popover/AppPopover.story.vue",
+      "supportPluginId": "vue3",
+      "treePath": [
+        "App",
+        "Popover",
+        "AppPopover"
+      ],
+      "virtual": false,
+      "markdownFile": null
+    },
+    {
       "id": "src-modules-ui-components-app-sidebar-appsidebar-story-vue",
       "title": "AppSidebar",
       "group": null,
