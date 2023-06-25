@@ -575,36 +575,6 @@
           "title": "Default",
           "icon": null,
           "iconColor": null
-        },
-        {
-          "id": "src-modules-ui-components-forms-select-formselect-story-vue-1",
-          "title": "Loading",
-          "icon": null,
-          "iconColor": null
-        },
-        {
-          "id": "src-modules-ui-components-forms-select-formselect-story-vue-2",
-          "title": "Empty",
-          "icon": null,
-          "iconColor": null
-        },
-        {
-          "id": "src-modules-ui-components-forms-select-formselect-story-vue-3",
-          "title": "Multiple",
-          "icon": null,
-          "iconColor": null
-        },
-        {
-          "id": "src-modules-ui-components-forms-select-formselect-story-vue-4",
-          "title": "Search",
-          "icon": null,
-          "iconColor": null
-        },
-        {
-          "id": "src-modules-ui-components-forms-select-formselect-story-vue-5",
-          "title": "Search with objects",
-          "icon": null,
-          "iconColor": null
         }
       ],
       "autoPropsDisabled": true,
@@ -614,36 +584,6 @@
         "Forms",
         "Input",
         "Select"
-      ],
-      "virtual": false,
-      "markdownFile": null
-    },
-    {
-      "id": "src-modules-ui-components-forms-select-formselect2-story-vue",
-      "title": "Select2",
-      "group": null,
-      "layout": {
-        "type": "grid",
-        "width": "100%"
-      },
-      "icon": null,
-      "iconColor": null,
-      "docsOnly": false,
-      "variants": [
-        {
-          "id": "src-modules-ui-components-forms-select-formselect2-story-vue-0",
-          "title": "Default",
-          "icon": null,
-          "iconColor": null
-        }
-      ],
-      "autoPropsDisabled": true,
-      "relativePath": "src/modules/ui/components/forms/select/FormSelect2.story.vue",
-      "supportPluginId": "vue3",
-      "treePath": [
-        "Forms",
-        "Input",
-        "Select2"
       ],
       "virtual": false,
       "markdownFile": null
