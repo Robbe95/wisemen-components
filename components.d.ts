@@ -12,6 +12,8 @@ declare module 'vue' {
     AppButtonLoader: typeof import('./src/components/app/button/AppButtonLoader.vue')['default']
     AppModal: typeof import('./src/components/app/modal/AppModal.vue')['default']
     'AppModal.story': typeof import('./src/components/app/modal/AppModal.story.vue')['default']
+    AppPopover: typeof import('./src/components/app/popover/AppPopover.vue')['default']
+    'AppPopover.story': typeof import('./src/components/app/popover/AppPopover.story.vue')['default']
     AppText: typeof import('./src/components/app/text/AppText.vue')['default']
     'AppText.story': typeof import('./src/components/app/text/AppText.story.vue')['default']
     FormError: typeof import('./src/components/form/error/FormError.vue')['default']
