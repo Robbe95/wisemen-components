@@ -1,6 +1,6 @@
 import { ComponentName, ComponentType } from '../../componentsTypes'
 
-export const appModal = {
+export const appPopover = {
   component: ComponentName.APP_POPOVER,
   name: 'Popover',
   files: [

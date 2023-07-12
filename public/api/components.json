@@ -280,6 +280,23 @@
     ]
   },
   {
+    "component": "AppPopover",
+    "name": "Popover",
+    "files": [
+      {
+        "name": "AppPopover.vue",
+        "dir": "./src/components/app/popover",
+        "placementDir": "app/popover",
+        "type": "components",
+        "content": "<script setup lang=\"ts\">\nimport type { FloatProps } from '@headlessui-float/vue'\nimport { Float } from '@headlessui-float/vue'\nimport { Popover, PopoverButton, PopoverPanel } from '@headlessui/vue'\nimport { popoverTransition } from '@/transitions'\n\nexport interface Props {\n  placement?: FloatProps['placement']\n\n  hasAdaptiveWidth?: FloatProps['adaptiveWidth']\n  hasNoOffset?: boolean\n  hasNoShift?: boolean\n  hasNoFlip?: boolean\n  hasAutoPlacement?: boolean\n}\n\nconst {\n  placement = 'bottom',\n\n  hasAdaptiveWidth = false,\n  hasAutoPlacement = false,\n  hasNoFlip = false,\n  hasNoOffset = false,\n  hasNoShift = false,\n} = defineProps<Props>()\n\nconst SHIFT_VALUE = 8\nconst OFFSET_VALUE = 4\nconst FLIP_VALUE = 8\n</script>\n\n<template>\n  <Popover>\n    <Float\n      :placement=\"placement\"\n      :adaptive-width=\"hasAdaptiveWidth\"\n      :auto-placement=\"hasAutoPlacement\"\n      :flip=\"hasNoFlip ? undefined : FLIP_VALUE\"\n      :shift=\"hasNoShift ? undefined : SHIFT_VALUE\"\n      :offset=\"hasNoOffset ? undefined : OFFSET_VALUE\"\n\n      v-bind=\"popoverTransition\"\n      tailwindcss-origin-class\n    >\n      <PopoverButton as=\"div\" class=\"max-w-max\">\n        <slot name=\"activator\" />\n      </PopoverButton>\n\n      <PopoverPanel\n        v-slot=\"{ close }\"\n        class=\"rounded border border-border bg-popover px-4 py-3 text-popover-foreground shadow-modal\"\n      >\n        <slot name=\"panel\" :close=\"close\" />\n      </PopoverPanel>\n    </Float>\n  </Popover>\n</template>\n"
+      }
+    ],
+    "dependencies": [
+      "@headlessui/vue",
+      "@headlessui-float/vue"
+    ]
+  },
+  {
     "component": "AppText",
     "name": "Text",
     "files": [
