@@ -19,6 +19,7 @@ module.exports = {
     extend: {
       transitionTimingFunction: {
         'out-back': 'cubic-bezier(0.34, 1.56, 0.64, 1)',
+        'native': 'ease',
       },
       boxShadow: {
         modal: '0px 8px 8px -4px rgba(16, 24, 40, 0.03), 0px 20px 24px -4px rgba(16, 24, 40, 0.08);',

@@ -1,17 +1,17 @@
 import type { TransitionClasses } from '.'
 
 export const popoverTransition: TransitionClasses = {
-  enterFromClass: 'scale-95 opacity-0',
-  enterActiveClass: 'ease-out-back duration-200',
-  enterToClass: 'scale-100 opacity-100',
-  leaveFromClass: 'scale-100 opacity-100',
-  leaveActiveClass: 'ease-out-back duration-200',
-  leaveToClass: 'scale-95 opacity-0',
+  enterFromClass: 'opacity-0 shadow-none -translate-y-2',
+  enterActiveClass: 'ease-native duration-200',
+  enterToClass: 'opacity-100',
+  leaveFromClass: 'opacity-100',
+  leaveActiveClass: 'ease-native duration-200',
+  leaveToClass: 'opacity-0 shadow-none -translate-y-2',
 
-  enterFrom: 'scale-95 opacity-0',
-  enter: 'ease-out-back duration-200',
-  enterTo: 'scale-100 opacity-100',
-  leaveFrom: 'scale-100 opacity-100',
-  leave: 'ease-out-back duration-200',
-  leaveTo: 'scale-95 opacity-0',
+  enterFrom: 'opacity-0 shadow-none -translate-y-2',
+  enter: 'ease-native duration-200',
+  enterTo: 'opacity-100',
+  leaveFrom: 'opacity-100',
+  leave: 'ease-native duration-200',
+  leaveTo: 'opacity-0 shadow-none -translate-y-2',
 }

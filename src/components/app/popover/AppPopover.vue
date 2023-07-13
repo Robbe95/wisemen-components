@@ -35,10 +35,12 @@ const FLIP_VALUE = 8
       :placement="placement"
       :adaptive-width="hasAdaptiveWidth"
       :auto-placement="hasAutoPlacement"
+
       :flip="hasNoFlip ? undefined : FLIP_VALUE"
       :shift="hasNoShift ? undefined : SHIFT_VALUE"
       :offset="hasNoOffset ? undefined : OFFSET_VALUE"
 
+      portal
       v-bind="popoverTransition"
       tailwindcss-origin-class
     >
