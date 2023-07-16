@@ -125,7 +125,4 @@ module.exports = {
       },
     },
   },
-  extend: {
-
-  },
 }

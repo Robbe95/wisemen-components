@@ -1,9 +1,10 @@
 import fs from 'node:fs'
 import path, { basename, dirname } from 'node:path'
 
-import { components } from './components'
+import type { Component } from '../componentsTypes'
 
-const payload = components
+export const generateRegistryFile = (components: Component[], fileName: string) => {
+  const payload = components
   .map((component) => {
     const files = component.files?.map((file) => {
       const content = fs.readFileSync(path.join(process.cwd(), file.path), 'utf8')
@@ -32,8 +33,9 @@ const payload = components
     return 0
   })
 
-fs.writeFileSync(
-  path.join(process.cwd(), 'public/api/components.json'),
+  fs.writeFileSync(
+    path.join(process.cwd(), `public/api/${fileName}.json`),
 
-  JSON.stringify(payload, null, 2),
-)
+    JSON.stringify(payload, null, 2),
+  )
+}
