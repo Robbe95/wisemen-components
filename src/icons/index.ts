@@ -1,15 +1,18 @@
 import * as allIcons from './icons'
 
+const convertIconName = (iconName: string): Icon => {
+  const name = iconName.replace('Icon', '')
+  return name.charAt(0).toLowerCase() + name.slice(1) as Icon
+}
+
 export const iconNames = Object.keys(allIcons)
-  .map(key => key.charAt(0).toLowerCase() + key.slice(1))
-  .map(key => key.replace('Icon', '')) as Icon[]
+  .map(convertIconName)
 
 export const iconComponents = Object.keys(allIcons).reduce((acc, key) => {
-  const iconName = key.charAt(0).toLowerCase() + key.slice(1)
   const iconComponent = allIcons[key as keyof typeof allIcons]
   return {
     ...acc,
-    [iconName]: iconComponent,
+    [convertIconName(key)]: iconComponent,
   }
 }, {} as Record<Icon, typeof allIcons[keyof typeof allIcons]>)
 
