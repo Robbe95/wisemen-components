@@ -50,7 +50,7 @@ const FLIP_VALUE = 8
 
       <PopoverPanel
         v-slot="{ close }"
-        class="rounded border border-border bg-popover px-4 py-3 text-popover-foreground shadow-modal"
+        class="rounded-popover border border-border bg-popover px-4 py-3 text-popover-foreground shadow-popover-shadow"
       >
         <slot name="panel" :close="close" />
       </PopoverPanel>
