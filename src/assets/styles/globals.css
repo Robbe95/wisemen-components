@@ -5,6 +5,9 @@
 @layer base {
   :root {
     /* #region COLORS */
+    --black: 0 0% 0%;
+    --white: 0 0% 100%;
+    ;
     --background: 0 0% 100%;
     --foreground: 0 0% 0%;
 
@@ -68,6 +71,7 @@
     --radius-popover: 0.75rem;
     --radius-card: 1rem;
     --radius-button: 0.5rem;
+    --radius-full: 9999px;
     /* #endregion */
 
     /* #region FONT-SIZE */

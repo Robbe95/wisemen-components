@@ -43,7 +43,7 @@ module.exports = {
 
     boxShadow: {
       DEFAULT: 'var(--shadow)',
-      cardShadow: 'var(--shadow-card);', 
+      cardShadow: 'var(--shadow-card);',
       cardHoverShadow: 'var(--shadow-card-hover);',
       buttonShadow: 'var(--shadow-button);',
       buttonHoverShadow: 'var(--shadow-button-hover);',
@@ -57,9 +57,14 @@ module.exports = {
       button: 'var(--radius-button)',
       modal: 'var(--radius-modal)',
       popover: 'var(--radius-popover)',
+      full: 'var(--radius-full)',
     },
 
     colors: {
+      transparent: 'transparent',
+      black: 'hsl(var(--black))',
+      white: 'hsl(var(--white))',
+
       border: 'hsl(var(--border))',
       ring: 'hsl(var(--ring))',
 

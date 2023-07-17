@@ -5,6 +5,5 @@ import type { Component } from './componentsTypes'
 
 export const globalConfig: Component[] = [
   tailwindConfig,
-  globalPackages
+  globalPackages,
 ]
-

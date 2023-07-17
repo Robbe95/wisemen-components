@@ -1,4 +1,3 @@
-
 import { components } from './components'
 import { globalComponents } from './globalComponents'
 import { globalConfig } from './globalConfig'

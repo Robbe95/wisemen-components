@@ -10,5 +10,5 @@ export const globalPackages = {
     'class-variance-authority',
     'tailwind-merge',
     'zod',
-  ]
+  ],
 }

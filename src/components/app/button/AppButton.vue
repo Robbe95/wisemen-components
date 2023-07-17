@@ -2,7 +2,7 @@
 import { twMerge } from 'tailwind-merge'
 import { buttonVariants } from '@/components/app/button/appButtonVariants'
 import type { ButtonProps } from '@/components/app/button/appButtonVariants'
-import { Icon } from '@/icons'
+import type { Icon } from '@/icons'
 
 interface Props {
   isDisabled?: boolean
