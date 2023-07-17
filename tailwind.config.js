@@ -19,25 +19,25 @@ module.exports = {
     },
     fontSize: {
       hero: ['var(--font-size-hero)', {
-        lineHeight: 'var(--font-line-height-hero',
+        lineHeight: 'var(--font-line-height-hero)',
       }],
       title: ['var(--font-size-title)', {
-        lineHeight: 'var(--font-line-height-title',
+        lineHeight: 'var(--font-line-height-title)',
       }],
       subtitle: ['var(--font-size-subtitle)', {
-        lineHeight: 'var(--font-line-height-subtitle',
+        lineHeight: 'var(--font-line-height-subtitle)',
       }],
       heading: ['var(--font-size-heading)', {
-        lineHeight: 'var(--font-line-height-heading',
+        lineHeight: 'var(--font-line-height-heading)',
       }],
       body: ['var(--font-size-body)', {
-        lineHeight: 'var(--font-line-height-body',
+        lineHeight: 'var(--font-line-height-body)',
       }],
       subtext: ['var(--font-size-subtext)', {
-        lineHeight: 'var(--font-line-height-subtext',
+        lineHeight: 'var(--font-line-height-subtext)',
       }],
       caption: ['var(--font-size-caption)', {
-        lineHeight: 'var(--font-line-height-caption',
+        lineHeight: 'var(--font-line-height-caption)',
       }],
     },
 
@@ -49,7 +49,6 @@ module.exports = {
       'button-hover-shadow': 'var(--shadow-button-hover);',
       'popover-shadow': 'var(--shadow-popover);',
       'modal-shadow': 'var(--shadow-modal);',
-      'none': 'box-shadow: 0 0 #0000',
     },
 
     borderRadius: {
@@ -59,7 +58,6 @@ module.exports = {
       modal: 'var(--radius-modal)',
       popover: 'var(--radius-popover)',
       full: 'var(--radius-full)',
-      none: '0px',
     },
 
     colors: {
