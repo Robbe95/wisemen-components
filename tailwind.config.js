@@ -92,8 +92,8 @@ module.exports = {
         foreground: 'hsl(var(--accent-foreground))',
       },
       warn: {
-        DEFAULT: 'hsl(var(--warn))',
-        foreground: 'hsl(var(--warn-foreground))',
+        DEFAULT: 'hsl(var(--warning))',
+        foreground: 'hsl(var(--warning-foreground))',
       },
       success: {
         DEFAULT: 'hsl(var(--success))',

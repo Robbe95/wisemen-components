@@ -8,7 +8,7 @@ import nl from './src/locales/nl.json'
 export const setupVue3 = defineSetupVue3(async ({ app }) => {
   const isIframe = window.self !== window.top
 
-  if (isIframe) {
+  if (isIframe || process.env.NODE_ENV === 'development') {
     await import('./src/assets/styles/globals.css')
     await import('./src/assets/styles/transitions.scss')
   }
