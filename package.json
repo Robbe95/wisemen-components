@@ -4,7 +4,7 @@
   "scripts": {
     "build:components": "ts-node --experimental-specifier-resolution=node --project ./tsconfig.scripts.json ./src/scripts/generateRegistry.ts",
     "dev": "vite",
-    "build": "pnpm lint && pnpm ts-check && pnpm build:components && vite build",
+    "build": "pnpm lint && pnpm ts-check && pnpm build:components && vite build && pnpm story:build",
     "ts-check": "vue-tsc --noEmit --skipLibCheck",
     "serve": "vite preview",
     "lint": "eslint \"**/*.{vue,ts,js}\"",
@@ -36,6 +36,7 @@
     "tailwind-merge": "^1.14.0",
     "ts-node": "^10.9.1",
     "vue": "^3.3.4",
+    "vue-final-modal": "^4.4.5",
     "vue-i18n": "^9.2.2",
     "vue-router": "^4.2.4",
     "zod": "^3.21.4"
